@@ -1,0 +1,9 @@
+{
+    "name": "lxrco/dcf",
+    "description": "Dead Code Finder",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "license": "MIT"
+}
