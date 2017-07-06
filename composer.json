@@ -2,8 +2,14 @@
     "name": "lxrco/dcf",
     "description": "Dead Code Finder",
     "type": "project",
+    "license": "MIT",
     "require": {
-        "symfony/console": "^3.3"
+        "symfony/console": "^3.3",
+        "roave/better-reflection": "^1.2"
     },
-    "license": "MIT"
+    "autoload": {
+        "psr-4": {
+            "Lxr\\Dcf\\": "src/"
+        }
+    }
 }
